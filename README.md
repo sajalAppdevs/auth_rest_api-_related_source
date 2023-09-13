@@ -2,6 +2,14 @@
 
 A new Flutter project.
 
+# try to check auth
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+# api
+https://reqres.in/api/register
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
