@@ -1,24 +1,74 @@
-# auth_rest_api
+# Auth REST API Flutter App
 
-A new Flutter project.
+A Flutter application demonstrating REST API integration with authentication functionality using the reqres.in API service.
 
-# try to check auth
+## Features
+
+- User Authentication
+- REST API Integration
+- Clean and Modern UI
+- Error Handling
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK (latest version)
+- Android Studio / VS Code
+- Basic knowledge of Flutter and Dart
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/auth_rest_api.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## API Integration
+
+This project uses the [reqres.in](https://reqres.in) API for authentication.
+
+### Authentication Endpoint
+
+- **URL**: https://reqres.in/api/register
+- **Method**: POST
+- **Content-Type**: application/json
+
+### Sample Request
+
+```json
 {
     "email": "eve.holt@reqres.in",
     "password": "cityslicka"
 }
-# api
-https://reqres.in/api/register
+```
 
-## Getting Started
+## Project Structure
 
-This project is a starting point for a Flutter application.
+- `lib/` - Contains the main source code
+  - `screens/` - UI screens
+  - `services/` - API services and network calls
+  - `models/` - Data models
+  - `widgets/` - Reusable UI components
 
-A few resources to get you started if this is your first Flutter project:
+## Flutter Resources
+
+For help getting started with Flutter development:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Online documentation](https://docs.flutter.dev/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
